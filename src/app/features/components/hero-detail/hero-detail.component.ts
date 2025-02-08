@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { CommonModule } from '@angular/common';
-import { Hero } from '../../../interfaces/hero';
+import { Hero } from '../../models/hero.model';
 import { Input } from '@angular/core';
 @Component({
   selector: 'app-hero-detail',
