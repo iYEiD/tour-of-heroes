@@ -1,13 +1,17 @@
 import { Component } from '@angular/core';
-import { HeroesComponent } from './features/components/heroes/heroes.component';
 import { MessagesComponent } from './features/components/messages/messages.component';
+import { RouterModule } from '@angular/router';
+import { NavbarComponent } from './core/components/navbar/navbar.component';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [ HeroesComponent, MessagesComponent],
+  imports: [ RouterModule, MessagesComponent, NavbarComponent],
+
+
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
+
 })
 export class AppComponent {
   title = 'Tour of Heroes';
