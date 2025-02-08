@@ -1,0 +1,14 @@
+nav {
+    background-color: #f8f9fa; // Light gray background
+    padding: 10px; // Padding around the nav
+  
+    a {
+      color: #007bff; // Blue text color for links
+      text-decoration: none; // Remove underline from links
+      margin-right: 15px; // Space between links
+  
+      &:hover {
+        color: #0056b3; // Darker blue on hover
+      }
+    }
+  }
